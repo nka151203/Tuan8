@@ -8,8 +8,8 @@ MSSV: 22024501
 
 ## 📌 Kết quả thực hiện
 ### 1️⃣. Thực hiện thêm 1 khóa học
-![Alt text](Bai2/Bai2_1.JPG)
+![Alt text](Bai2_1.JPG)
 ### 2️⃣. Xem toàn bộ khóa học đã được 
-![Alt text](Bai2/Bai2_2.JPG)
+![Alt text](Bai2_2.JPG)
 ### 3️⃣. Thực hiện chức năng xóa 1 khóa học
-![Alt text](Bai2/Bai2_3.JPG)
+![Alt text](Bai2_3.JPG)
