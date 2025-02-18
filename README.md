@@ -36,7 +36,7 @@ spring.jpa.hibernate.ddl-auto=update
 AppDev/
 │── src/
 │   ├── main/
-│   │   ├── java/com/example//
+│   │   ├── java/com/example/demo/
 │   │   │   ├── controller/      # Controller (điều khiển API)
 │   │   │   ├── model/           # Định nghĩa entity (Course)
 │   │   │   ├── repository/      # JPA Repository
