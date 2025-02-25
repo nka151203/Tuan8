@@ -73,5 +73,9 @@ public class CourseController {
         model.addAttribute("listCourses", listCourses);
         return "homepage";
     }
+    @GetMapping("/login")
+    public String TestLogin() {
+        return "login";
+    }
 }
 
