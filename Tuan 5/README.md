@@ -1,6 +1,6 @@
 # Bài tập tuần 5
 ## Ngày học: 04/03/2025
-## Bài tập 1: Spring Boot JWT
+## Bài tập 1: Spring Boot RESTAPI & JWT
 
 ## 📌 Giới thiệu
 Họ và tên: Nguyễn Khắc An\
