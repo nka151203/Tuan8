@@ -12,7 +12,6 @@ MSSV: 22024501
 ![Alt text](Cr.JPG)
 ### 2️⃣. Read User
 ![Alt text](R.JPG) \
-![Alt text](Rr.JPG)
 ### 3️⃣. Update User
 ![Alt text](U.JPG) \
 ![Alt text](Ur.JPG)
