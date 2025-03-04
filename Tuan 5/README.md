@@ -11,12 +11,12 @@ MSSV: 22024501
 ![Alt text](C.JPG) \
 ![Alt text](Cr.JPG)
 ### 2️⃣. Read User
-![Alt text](R.JPG) \
+![Alt text](R.JPG)
 ### 3️⃣. Update User
 ![Alt text](U.JPG) \
 ![Alt text](Ur.JPG)
 ### 4️⃣. Delete User
 ![Alt text](D.JPG) \
-![Alt text](Dr_1.JPG)
+![Alt text](Dr.JPG)
 ### 5️⃣. Get Token Login 
 ![Alt text](Token.JPG)
