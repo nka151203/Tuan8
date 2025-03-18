@@ -1,6 +1,6 @@
 # Bài tập tuần 7
 ## Ngày học: 18/03/2025
-## Bài tập: Docker & Kubernetes
+## Bài tập: Docker
 
 ## 📌 Giới thiệu
 Họ và tên: Nguyễn Khắc An\
