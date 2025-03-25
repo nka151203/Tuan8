@@ -39,5 +39,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/Tuan8:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/Tuan8:${{ github.sha }}
+            nka1512/Tuan8:latest
+            nka1512/Tuan8:${{ github.sha }}
