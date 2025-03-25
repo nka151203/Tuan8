@@ -39,5 +39,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/spring-boot-docker:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/spring-boot-docker:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/Tuan8:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/Tuan8:${{ github.sha }}
