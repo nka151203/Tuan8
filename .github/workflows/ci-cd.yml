@@ -39,5 +39,5 @@ jobs:
           context: .
           push: true
           tags: |
-            nka1512/Tuan8:latest
-            nka1512/Tuan8:${{ github.sha }}
+            nka1512/tuan8:latest
+            nka1512/tuan8:${{ github.sha }}
