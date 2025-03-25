@@ -1,10 +1,14 @@
-name: Docker ImG CI
+name: Docker Image CI for My Env
 
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+
+# Môi trường cụ thể
+env:
+  ENV_NAME: "My Env"
 
 jobs:
   build-and-push:
