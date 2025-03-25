@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: spring-boot
-          image: nka/tuan8:latest
+          image: nka1512/tuan8:latest
           ports:
             - containerPort: 8080
