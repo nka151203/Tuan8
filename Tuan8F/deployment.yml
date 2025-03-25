@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-boot
-          image: nka1512/tuan8
+          image: YOUR_DOCKERHUB_USERNAME/my-spring-boot:v1
           ports:
             - containerPort: 8080
 
