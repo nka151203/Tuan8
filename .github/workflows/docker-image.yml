@@ -25,7 +25,7 @@ jobs:
       working-directory: ./Tuan8F
     - name: Copy Dockerfile
       run: |
-        cp ./Tuan8F/Dockerfile ./github/workflows
+        cp ./Tuan8F/Dockerfile .github/workflows
     - name: Build Docker image
       run: docker build -t spring-boot-docker .
     
