@@ -1,0 +1,41 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+    
+    - name: Build with Maven
+      run: mvn clean package
+      working-directory: ./Tuan8F
+    - name: Copy Dockerfile
+      run: |
+        cp ./Tuan8F/Dockerfile .github/workflows
+    - name: Build Docker image
+      run: docker build -t spring-boot-docker .
+    
+    - name: Log in to Docker Hub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+    
+    - name: Push to Docker Hub
+      run: |
+        docker tag spring-boot-docker ${{ secrets.DOCKERHUB_USERNAME }}/spring-boot-docker:latest
+        docker push ${{ secrets.DOCKERHUB_USERNAME }}/spring-boot-docker:latest
